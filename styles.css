@@ -1,0 +1,68 @@
+body {
+    background-color: #181818;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tarot-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarot-card {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.tarot-card img {
+    max-width: 150px;
+    display: block;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-style: italic;
+}

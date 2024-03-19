@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 운세</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .tarot-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .tarot-card {
+            background-color: transparent;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .tarot-card img {
+            max-width: 150px;
+            display: block;
+        }
+        .result {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>오늘의 운세</h1>
+        <p>오늘의 운세를 확인하세요. 카드를 선택하세요.</p>
+        <div id="tarotCards" class="tarot-cards">
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+            <button class="tarot-card" onclick="drawRandomTarotCard()"><img src="https://i.pinimg.com/originals/42/bf/81/42bf815ddf746472ba96d6675b36e345.jpg" alt="카드 뒷면"></button>
+        </div>
+        <div id="tarotResult" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
